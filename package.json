@@ -1,0 +1,37 @@
+{
+  "name": "fitcheck",
+  "version": "1.0.0",
+  "description": "- [Description](#description)\r - [User Story](#user-Story)\r - [Installation](#installation)\r - [Links](#links)\r - [Screenshots](#screenshots)\r - [Contact](#contact)",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "config.json": "^0.0.4",
+    "connect-session-sequelize": "^7.1.2",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "hbs": "^4.1.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.0",
+    "nexmo": "^2.9.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a89ball/FitCheck.git"
+  },
+  "author": "Mahmoud, Abdifatah, Rahma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a89ball/FitCheck/issues"
+  },
+  "homepage": "https://github.com/a89ball/FitCheck#readme"
+}

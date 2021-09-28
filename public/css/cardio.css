@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+body {
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.jumbotron {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+div.main {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+/* Add form styling */
+
+label[for="workout"] {
+    visibility: hidden;
+}
+
+div.add-workout {
+    width: 60%;
+    background-color: rgba(163, 162, 162, 0.541);
+    opacity: 1;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+div.add-workout h2 {
+    font-size: 2rem;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 20px;
+}
+
+
+/* workout list styling */
+
+div.workouts {
+    margin: 10px;
+}
+
+div.workouts .workout-heading {
+    font-size: 2rem;
+    padding: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+
+div.workout-col {
+    background-color: rgba(163, 162, 162, 0.541);
+    min-height: 300px;
+}
+
+li.workout-li {
+    background-color: rgba(163, 162, 162, 0.541);
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+}
+
+ul.workouts {
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+}
+
+p {
+    color: white;
+    font-size: 100px;
+}
