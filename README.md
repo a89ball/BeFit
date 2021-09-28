@@ -12,7 +12,7 @@ An application that allows users to create and log new workout plans and view pr
 The user is presented with options tp log multiple workouts and recieve back a personalised dashboard.
 
 # User Story
-
+The application allows the user to keep track of their workouts and also view logged workouts that were previously completed.
 
 # Installation
 ### To run this application locally follow the steps down below:
@@ -29,6 +29,6 @@ Open integrated terminal or use your main CLI.
 
 Deployed LInk :
 
-Repository Link:
+Original Repository Link: https://github.com/a89ball/FitCheck
 
 
